@@ -14,6 +14,9 @@ target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} gdal)
 cs_add_executable(demo_node src/demo_node.cc)
 target_link_libraries(demo_node ${PROJECT_NAME})
 
+cs_add_executable(gps_to_path src/gps_to_path.cc)
+target_link_libraries(gps_to_path ${PROJECT_NAME})
+
 catkin_add_gtest(geo_tf_test test/test_axis_swaps.cc)
 target_link_libraries(geo_tf_test ${PROJECT_NAME})
 

@@ -16,8 +16,10 @@
   <depend>roslib</depend>
   <depend>roscpp</depend>
   <depend>tf</depend>
+  
 
   <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>tf_conversions</depend>
 
